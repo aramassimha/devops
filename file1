@@ -1,0 +1,7 @@
+How to untrack the files -> staging area to working directory how  ==> git rm  --cached filename
+I have a multiple files and I need to untrack one file -> vim .gitignore -> give the file name -> save it 
+I want to commit all the files hidden files also then -> git add -f *
+I want to delete commit id and message --> git reset --hard HEAD~1
+I want to delete commit id only then  --> git reset --soft HEAD~1
+I want to  see  all the delete   commit  then -> git reflog -> it will show all the commits were deleted
+I want to get back commit which were deleted --> git cherry-pick commit id (after restore it will change commit id  -> it will not same
